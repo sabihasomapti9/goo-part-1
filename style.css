@@ -1,43 +1,42 @@
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
-  flex-direction: column;
-
-}
-.co{
-  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  margin: 0px;
 }
 
-.container img {
-  width: 200px; /* Adjust width as needed */
-  margin-bottom: 0px;  }
-.hy{
+.item {
   display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  width: 15%; /* Adjust width as needed */
+  margin-bottom: 0px;
 }
-.text-content {
-  flex: 1;
+
+.item img:first-child {
+  width: 100%; /* First image takes full width */
 }
-.text-content-1 {
-  flex: 1;
+
+.item img:last-child {
+  width: 10%; /* Second image takes half width */
+  margin-top: 10px; /* Add some space between images */
 }
-.te{
-  display: flex;
-  flex-direction: column;
+
+.content {
+  padding: 10px;
 }
-.se{
-  display: flex;
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
-.logo {
-  width: 100px; /* Adjust width as needed */
-  margin-left: 0px; /* Margin to separate from text */
-}
+
 .date {
-  font-size: smaller;
+  font-size: 0.8em;
   color: gray;
-}
-.whiteboard{
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  justify-content: center;
-  
 }
