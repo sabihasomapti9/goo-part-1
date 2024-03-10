@@ -1,31 +1,43 @@
 .container {
   display: flex;
-  margin-bottom: 20px;
+  flex-direction: column;
+
+}
+.co{
+  display: flex;
 }
 
 .container img {
-  width: 50%;
-  object-fit: cover; /* Adjust image display as needed */
+  width: 200px; /* Adjust width as needed */
+  margin-bottom: 0px;  }
+.hy{
+  display: flex;
 }
-
-.text-container {
+.text-content {
+  flex: 1;
+}
+.text-content-1 {
+  flex: 1;
+}
+.te{
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  width: 50%;
 }
-
+.se{
+  display: flex;
+}
 .logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 10px;
+  width: 100px; /* Adjust width as needed */
+  margin-left: 0px; /* Margin to separate from text */
 }
-
-.heading {
-  margin-bottom: 5px;
-}
-
 .date {
-  font-size: 0.8em;
-  color: #ccc;
+  font-size: smaller;
+  color: gray;
+}
+.whiteboard{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  
 }
