@@ -7,7 +7,7 @@
   }
   .whiteboard {
     background-color: yellow;
-    width: 651px; /* Adjust width as needed */
+    width: 657px; /* Adjust width as needed */
     height: 437px; /* Adjust height as needed */
     border-radius: 23px 23px 23px 23px;
   }
@@ -23,7 +23,7 @@
     padding-left: 27px;
   }
   .yj{
-    margin-left: 310px;
+    margin-left: 306px;
   }
   .to{
 padding-bottom: 11px;
@@ -42,6 +42,8 @@ padding-bottom: 11px;
 }
 .flex-con{
   display: flex;
+  padding-top: 13px;
+  padding-left: 14px;
 }
 .img-doot{
   width: 3px;
@@ -67,4 +69,7 @@ padding-bottom: 11px;
 .fo-img{
   width: 20px;
   height: 20px;
+}
+.ic-pa{
+  padding-left: 8px;
 }
