@@ -53,5 +53,18 @@ padding-bottom: 11px;
   background-color: white;
 }
 .i-c{
+  padding-top: 9px;
   display: flex;
+}
+.i-o{
+  padding-top: 9px;
+  display: flex;
+}
+.tt-img{
+  width: 20px;
+  height: 20px;
+}
+.fo-img{
+  width: 20px;
+  height: 20px;
 }
