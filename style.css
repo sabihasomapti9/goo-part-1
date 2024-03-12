@@ -23,7 +23,7 @@
     padding-left: 27px;
   }
   .yj{
-    margin-left: 300px;
+    margin-left: 310px;
   }
   .to{
 padding-bottom: 11px;
@@ -34,4 +34,9 @@ padding-bottom: 11px;
     inline-size: 596px;
     margin-left: 27px;
     padding-top: 12px;  
+}
+.image-een{
+  width: 120px;
+  height: 50px;
+  border-radius: 11px 11px 11px 11px;
 }
