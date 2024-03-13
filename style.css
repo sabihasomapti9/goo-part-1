@@ -1,9 +1,13 @@
-
+body{
+  font-family: Open, sans-serif;
+}
   #current-date {
     font-weight: bold;  
     text-align: center;  }
   .too{
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 3px;
   }
   .whiteboard {
     background-color: yellow;
@@ -19,14 +23,14 @@
   }
   .he{
     display: flex;
-    padding-top: 20px;
+    padding-top: 17px;
     padding-left: 27px;
   }
   .yj{
     margin-left: 306px;
   }
   .to{
-padding-bottom: 11px;
+padding-bottom: 7px;
   }
   .border{
     border-bottom: 2.1px solid;
@@ -36,14 +40,15 @@ padding-bottom: 11px;
     padding-top: 12px;  
 }
 .image-een{
-  width: 120px;
-  height: 50px;
+  width: 221px;
+  height: 125px;
   border-radius: 11px 11px 11px 11px;
 }
 .flex-con{
   display: flex;
   padding-top: 13px;
   padding-left: 14px;
+  flex-direction: row;
 }
 .img-doot{
   width: 3px;
@@ -72,4 +77,51 @@ padding-bottom: 11px;
 }
 .ic-pa{
   padding-left: 8px;
+}
+.jk{
+  font-family: Open, sans-serif;
+  display: flex;
+  padding-top: 2px;
+}
+.image-ap{
+  width: 15px;
+  height: 12px;
+}
+.cn-im{
+  width: 25px;
+  height: 20px;
+}
+.flex-container{
+  font-family: Open, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+.hg{
+  font-family: Open, sans-serif;
+  display: flex;
+  padding-left: 12px;
+}
+.whh{
+  font-family: Open, sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+  padding-left: 14px;
+}
+.flk{
+  font-size: 11px;
+  font-family: Open, sans-serif;
+}
+.th{
+  font-family: Open, sans-serif;
+  font-size: 16px;
+  width:220px;
+  padding-top: 10px;
+}
+.es{
+  font-family: Open, sans-serif;
+  font-size: 10px;
+}
+.sp{
+  padding-top: 4px;
 }
