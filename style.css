@@ -11,7 +11,7 @@ body{
   }
   .whiteboard {
     background-color: yellow;
-    width: 657px; /* Adjust width as needed */
+    width: 673px; /* Adjust width as needed */
     height: 437px; /* Adjust height as needed */
     border-radius: 23px 23px 23px 23px;
   }
@@ -27,7 +27,7 @@ body{
     padding-left: 27px;
   }
   .yj{
-    margin-left: 306px;
+    margin-left: 240px;
   }
   .to{
 padding-bottom: 7px;
@@ -35,8 +35,8 @@ padding-bottom: 7px;
   .border{
     border-bottom: 2.1px solid;
     border-color:#DDDDDD;
-    inline-size: 596px;
-    margin-left: 27px;
+    inline-size: 626px;
+    margin-left: 24px;
     padding-top: 12px;  
 }
 .image-een{
@@ -88,25 +88,27 @@ padding-bottom: 7px;
   height: 12px;
 }
 .cn-im{
-  width: 25px;
+  width: 17px;
   height: 20px;
 }
 .flex-container{
   font-family: Open, sans-serif;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .hg{
   font-family: Open, sans-serif;
   display: flex;
-  padding-left: 12px;
+  padding-left: 14px;
+  padding-top: 8px;
+  gap:4px;
 }
 .whh{
   font-family: Open, sans-serif;
   display: flex;
   flex-direction: row;
   padding-top: 12px;
-  padding-left: 14px;
+  padding-left: 18px;
 }
 .flk{
   font-size: 11px;
@@ -124,4 +126,23 @@ padding-bottom: 7px;
 }
 .sp{
   padding-top: 4px;
+}
+.ad{
+  font-size: 14px;
+  padding-top: 2px;
+  font-weight: 530;
+}
+.bd{
+  padding-left: 14px;
+  padding-top: 6px;
+  width: 410px;
+  font-size: 14px;
+}
+.ka{
+  font-size: 11px;
+  font-weight: 545;
+}
+.sp-1{
+  padding-top: 6px;
+  padding-left: 13px;
 }
