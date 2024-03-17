@@ -83,5 +83,13 @@ padding-top: 30px;
   flex-direction: row;
   border-radius: 23px 23px 23px 23px;
 }
+.tr{
+  display: flex;
+  flex-direction: row;
+}
+.hi{
+  display: flex;
+  flex-direction: row;
+}
   
   
