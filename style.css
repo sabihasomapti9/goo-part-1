@@ -91,5 +91,13 @@ padding-top: 30px;
   display: flex;
   flex-direction: row;
 }
+.img-yyo{
+  width: 20px;
+  height: 20px;
+}
+.whole{
+  display: flex;
+  flex-direction: row;
+}
   
   
