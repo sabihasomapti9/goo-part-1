@@ -1,103 +1,22 @@
-.menu-container {
-    position: relative; /* Needed for menu positioning */
-  }
-  
-  .menu-btn {
-    width: 40px;
-    height: 40px;
-    background: none;
-    border: none;
-    cursor: pointer; /* Shows hover hand cursor */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .menu-btn span {
-    width: 100%;
-    height: 5px;
-    background-color: #333;
-    transition: all 0.4s ease;
-  }
-  
-  .menu {
-    position: absolute; /* Positions the menu off-screen */
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: white; /* Customize background color */
-    display: none; /* Initially hides the menu */
-  }
-  
-  .menu a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: black; /* Customize text color */
-  }
-  
-  .menu-container.show-menu .menu {
-    display: block; /* Shows the menu on click */
-  }
-  
-  .menu-container.show-menu .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-  }
-  
-  .menu-container.show-menu .bar2 {
-    opacity: 0;
-  }
-  
-  .menu-container.show-menu .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-  }
-  .ssh-im{
-    width: 20px;
-    height: 20px;
-  }
-  .ssu-im{
-    width: 20px;
-    height: 20px;
-  }
-.border{
-border-bottom: 4.1px solid;
-border-color:black;
-inline-size: 60px;
-margin-left: 2px;
-padding-top: 30px;  
+.container {
+  display: inline-block;
+  cursor: pointer;
 }
-.border-1{
-  border-bottom: 4.1px solid;
-  border-color:black;
-  inline-size: 60px;
-  margin-left: 2px;
-  padding-top: 30px;  
-  }
-.img-vi{
-  width: 20px;
-  height: 20px;
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
 }
-.sn{
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  border-radius: 23px 23px 23px 23px;
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
 }
-.tr{
-  display: flex;
-  flex-direction: row;
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
 }
-.hi{
-  display: flex;
-  flex-direction: row;
-}
-.img-yyo{
-  width: 20px;
-  height: 20px;
-}
-.whole{
-  display: flex;
-  flex-direction: row;
-}
-  
-  
