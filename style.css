@@ -1,3 +1,4 @@
+
 .container {
   display: inline-block;
   cursor: pointer;
@@ -27,7 +28,7 @@
   float: right;
 }
 .se{
-  width: 620px;
+  width: 520px;
   height: 30px;
   padding: 3px 16px;
   font-size: 15px;
@@ -92,6 +93,42 @@
   width: 57px;
   height: 40px;
 }
+.upload-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 56px;
+}
+
+#upload-image {
+  width: 15px;
+  height: 13px;
+}
+
+.upload-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.upload-container:hover .upload-options {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hidden {
+  display: none;
+}
+
 
 
 
