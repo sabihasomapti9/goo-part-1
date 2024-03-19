@@ -27,8 +27,8 @@
   float: right;
 }
 .se{
-  width: 630px;
-  height: 35px;
+  width: 620px;
+  height: 30px;
   padding: 3px 16px;
   font-size: 15px;
   font-weight: 550;
@@ -78,7 +78,7 @@
 .search-container{
   display: flex;
   flex-direction: row;
-  padding-left: 190px;
+  padding-left: 160px;
   padding-top: 2px;
 }
 .co{
@@ -144,7 +144,7 @@
   height: 50px;
   display: flex;
   flex-direction: row;
-  background-color: red;
+  background-color: #DDDDDD;
   border-radius: 26px 26px 26px 26px;
 }
 .microphone:before,
@@ -155,7 +155,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .microphone:before {
   width: 20px;
   height: 20px;
@@ -163,7 +162,7 @@
 }
 .fa-microphone{
   padding-top: 20px;
-  padding-left: 9px;
-  width: 20px;
+  padding-left: 11px;
+  width: 30px;
 }
 
