@@ -139,13 +139,14 @@
 
 
 
-
 .microphone {
-  width: 30px;
+  width: 50px;
   height: 50px;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  border-radius: 26px 26px 26px 26px;
 }
-
 .microphone:before,
 .microphone:after {
   content: "";
@@ -159,5 +160,10 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
+}
+.fa-microphone{
+  padding-top: 20px;
+  padding-left: 9px;
+  width: 20px;
 }
 
