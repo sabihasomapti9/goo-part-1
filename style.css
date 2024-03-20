@@ -93,16 +93,16 @@
   width: 57px;
   height: 40px;
 }
-.upload-container {
+.create-container {
   display: flex;
   align-items: center;
   cursor: pointer;
   padding-left: 56px;
 }
 
-#upload-image {
-  width: 15px;
-  height: 13px;
+.img-cr {
+  width: 19px;
+  height: 16px;
 }
 
 .upload-options {
