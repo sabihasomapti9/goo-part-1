@@ -104,8 +104,26 @@
   width: 19px;
   height: 16px;
 }
+#menu {
+  position:absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  display: none; /* Initially hidden */
+}
 
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
 
+#menu li {
+  margin-bottom: 5px;
+}
+#myImage{
+  width: 10px;
+  height: 10px;
+}
 
 
 
