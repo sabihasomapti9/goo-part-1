@@ -213,38 +213,26 @@
 
 
 
-#image-icon{
+
+
+#main-image{
   width: 20px;
   height: 20px;
+  padding-left: 20px;
+  padding-top: 13px;
 }
 
 
 
-.image-container {
-  position: relative; /* Required for positioning options container absolutely */
-  display: inline-block; /* Ensures inline behavior for the container */
-}
 
-.options-container {
-  display: none; /* Initially hide the options */
-  position: absolute;
-  top: 100%; /* Position the options container below the image */
-  left: 0;
-  background-color: white; /* Set background color for options */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-  padding: 5px;
-}
-
-.options-container.show {
-  display: block; /* Show the options container on click */
+.hidden {
+  display: none;
 }
 
 .option {
-  margin: 0; /* Remove default margin for better styling */
-  padding: 5px;
-  cursor: pointer; /* Indicate interactivity with a pointer cursor */
-}
-
-.option:hover {
-  background-color: #f5f5f5; /* Add a hover effect for options */
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
 }

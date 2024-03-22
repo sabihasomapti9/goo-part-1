@@ -34,21 +34,11 @@
 
 
 <div class="image-container">
-  <img src="your-image-png" alt="Image Icon" class="image-icon" />
-  <div class="options-container" id="options">
-    <p class="option">Option 1</p>
-    <p class="option">Option 2</p>
-  </div>
+  <img id="main-image" src="your_image.jpg" alt="Main Image" onclick="showOptions()">
 </div>
-
-
-
-<div class="image-container">
-  <img src="viii.jpg" alt="Image Icon" class="image-icon" />
-  <div class="options-container" id="options">
-    <p class="option">Option 1</p>
-    <p class="option">Option 2</p>
-  </div>
+<div id="options" class="hidden">
+  <button class="option" onclick="changeImage('option1.jpg')">Option 1</button><br>
+  <button class="option" onclick="changeImage('option2.jpg')">Option 2</button>
 </div>
 
 
