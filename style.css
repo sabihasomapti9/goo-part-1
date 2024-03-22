@@ -104,48 +104,55 @@
   width: 19px;
   height: 16px;
 }
-#menu {
-  position:absolute;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#image-menu {
+  cursor: pointer;
+  /* Add any other styles for the image */
+  width: 20px;
+  height: 20px;
+  padding-left: 14px;
+  padding-top: 13px;
+}
+
+#options-container {
+  display: none;
+  position: absolute;
   background-color: white;
   border: 1px solid black;
   padding: 10px;
-  display: none; /* Initially hidden */
 }
 
-#menu ul {
+#options-container ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-#menu li {
+#options-container li {
   margin-bottom: 5px;
 }
-#myImage{
-  width: 10px;
-  height: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
