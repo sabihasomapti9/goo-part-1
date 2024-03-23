@@ -141,11 +141,21 @@
   flex-direction: row;
   padding-left: 20px;
   padding-top: 12px;
-  border-radius: 33px 33px 33px 43px;
-  border-color:6px solid red;
+  
 }
-
-
+.button{
+  border-radius: 25px 25px 25px 25px;
+  width: 92px;
+  height: 32px;
+  padding-top: 5px;
+  border-color: 4px solid black;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.button:hover{
+  transition: .5s all;
+}
 
 
 
