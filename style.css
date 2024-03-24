@@ -135,6 +135,7 @@
 .img-ssii{
   width: 20px;
   height: 20px;
+  background-color: transparent;
 }
 .as{
   display: flex;
@@ -155,10 +156,18 @@
 }
 .button:hover{
   transition: .5s all;
+  background-color:#B9E9FC;
 }
-
-
-
+.img-ssii:hover{
+background-color: #B9E9FC;
+}
+.fa-home{
+  padding-top: 30px;
+}
+.img--sh{
+  width: 20px;
+  height: 20px;
+}
 
 
 
