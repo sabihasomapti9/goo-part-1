@@ -113,3 +113,18 @@ document.addEventListener('click', function(event) {
     hideOptions();
   }
 });
+
+
+
+
+
+
+// Select all buttons
+const buttons = document.querySelectorAll('button');
+
+// Add a click event listener to each button (example)
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    alert(`Button ${button.textContent} clicked!`);
+  });
+});

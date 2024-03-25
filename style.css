@@ -233,6 +233,14 @@ background-color: #B9E9FC;
 
 
 
+
+
+
+
+
+
+
+
 .microphone {
   width: 50px;
   height: 50px;
@@ -262,31 +270,24 @@ background-color: #B9E9FC;
 
 
 
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap buttons to multiple lines if needed */
+  justify-content: space-around; /* Distribute buttons evenly with space in between */
+  margin: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+button {
+  padding: 1px 1px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  margin: 5px;
+  cursor: pointer;
+}
+.cu{
+  display: flex;
+  flex-direction: row;
+}
+.bu-1{
+  padding: 1px 3px;
+}
