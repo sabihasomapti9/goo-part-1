@@ -89,6 +89,15 @@
   display: flex;
   flex-direction: row;
 }
+.cu{
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+.image-shh{
+width: 20px;
+height: 20px;
+}
 .bu{
   width: 57px;
   height: 40px;
@@ -162,14 +171,24 @@
 background-color: #B9E9FC;
 }
 .fa-home{
-  padding-top: 30px;
+  padding-top: 0px;
 }
 .img--sh{
   width: 20px;
   height: 20px;
 }
-
-
+.img--vcc{
+  width: 20px;
+  height: 20px;
+}
+.img--youu{
+  width: 20px;
+  height: 20px;
+}
+.img--hist{
+  width: 20px;
+  height: 20px;
+}
 
 
 
