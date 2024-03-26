@@ -91,7 +91,7 @@
 }
 .cu{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-left: 8px;
 }
 .image-shh{
@@ -267,27 +267,22 @@ background-color: #B9E9FC;
   padding-left: 11px;
   width: 30px;
 }
-
-
-
 .button-container {
-  display: flex;
-  flex-wrap: wrap; /* Wrap buttons to multiple lines if needed */
-  justify-content: space-around; /* Distribute buttons evenly with space in between */
+  flex-wrap: wrap; 
+  justify-content: space-around; 
   margin: 20px;
 }
-
 button {
-  padding: 1px 1px;
+  padding: 6px 2px;
   border: 1px solid #ccc;
-  border-radius: 1px;
+  border-radius: 5px;
   margin: 5px;
   cursor: pointer;
 }
-.cu{
-  display: flex;
-  flex-direction: row;
+.button:hover{
+  transition: 0.5s all;
 }
-.bu-1{
-  padding: 1px 3px;
+.fo{
+  display: flex;
+  flex-direction: column;
 }

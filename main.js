@@ -105,7 +105,6 @@ function showOptions() {
 function hideOptions() {
   optionsContainer.style.display = "none";
 }
-
 imageMenu.addEventListener('click', showOptions);
 
 document.addEventListener('click', function(event) {
@@ -113,6 +112,10 @@ document.addEventListener('click', function(event) {
     hideOptions();
   }
 });
+
+
+
+
 
 
 
